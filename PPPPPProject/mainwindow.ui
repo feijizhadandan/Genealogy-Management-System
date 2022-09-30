@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1050</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="toolWidget" name="tool" native="true">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>0</y>
+      <width>310</width>
+      <height>650</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="displayWidget" name="display" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>741</width>
+      <height>800</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1050</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>开始</string>
+    </property>
+    <addaction name="newOne"/>
+    <addaction name="separator"/>
+    <addaction name="action_Open"/>
+    <addaction name="separator"/>
+    <addaction name="action_Save"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>功能</string>
+    </property>
+    <addaction name="actionDetail"/>
+    <addaction name="actionRelative"/>
+    <addaction name="actionSearch"/>
+    <addaction name="separator"/>
+    <addaction name="actionSta"/>
+    <addaction name="separator"/>
+    <addaction name="actionShowTree"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <action name="action_Open">
+   <property name="text">
+    <string>打开文件</string>
+   </property>
+  </action>
+  <action name="action_Save">
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </action>
+  <action name="actionSearch">
+   <property name="text">
+    <string>信息搜索</string>
+   </property>
+  </action>
+  <action name="actionRelative">
+   <property name="text">
+    <string>按亲戚关系查询</string>
+   </property>
+  </action>
+  <action name="actionDetail">
+   <property name="text">
+    <string>详细信息</string>
+   </property>
+  </action>
+  <action name="actionReload">
+   <property name="text">
+    <string>刷新</string>
+   </property>
+  </action>
+  <action name="action_newSave">
+   <property name="text">
+    <string>另存为</string>
+   </property>
+  </action>
+  <action name="newOne">
+   <property name="text">
+    <string>新建</string>
+   </property>
+  </action>
+  <action name="actionSta">
+   <property name="text">
+    <string>统计信息</string>
+   </property>
+  </action>
+  <action name="actionShowTree">
+   <property name="text">
+    <string>展示家族树</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>toolWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">toolwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>displayWidget</class>
+   <extends>QWidget</extends>
+   <header>displaywidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

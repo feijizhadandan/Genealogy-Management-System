@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resource/icon/add_bottom.png</file>
+        <file>Resource/icon/add_left.png</file>
+        <file>Resource/icon/add_right.png</file>
+        <file>Resource/icon/add_top.png</file>
+        <file>Resource/icon/arrowBottom.png</file>
+        <file>Resource/icon/branch_close.png</file>
+        <file>Resource/icon/branch_open.png</file>
+        <file>Resource/icon/branch-closed.png</file>
+        <file>Resource/icon/branch-end.png</file>
+        <file>Resource/icon/branch-more.png</file>
+        <file>Resource/icon/branch-open.png</file>
+        <file>Resource/icon/calendar_nextmonth.png</file>
+        <file>Resource/icon/calendar_prevmonth.png</file>
+        <file>Resource/icon/checkbox_checked.png</file>
+        <file>Resource/icon/checkbox_checked_disable.png</file>
+        <file>Resource/icon/checkbox_parcial.png</file>
+        <file>Resource/icon/checkbox_parcial_disable.png</file>
+        <file>Resource/icon/checkbox_unchecked.png</file>
+        <file>Resource/icon/checkbox_unchecked_disable.png</file>
+        <file>Resource/icon/downarrow.png</file>
+        <file>Resource/icon/eye.png</file>
+        <file>Resource/icon/eyeClosed.png</file>
+        <file>Resource/icon/eyeClosed0.png</file>
+        <file>Resource/icon/radiobutton_checked.png</file>
+        <file>Resource/icon/radiobutton_checked_disable.png</file>
+        <file>Resource/icon/radiobutton_unchecked.png</file>
+        <file>Resource/icon/radiobutton_unchecked_disable.png</file>
+        <file>Resource/icon/unknow.png</file>
+        <file>Resource/icon/uparrow.png</file>
+        <file>Resource/icon/vline.png</file>
+    </qresource>
+</RCC>
